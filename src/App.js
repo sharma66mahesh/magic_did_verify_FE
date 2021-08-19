@@ -25,6 +25,7 @@ function App() {
           email: enteredEmail,
           showUI: true
       });
+      alert('Successfully logged in');
       const metadata = await magic.user.getMetadata();
       console.log(metadata);
       setUserMetadata(metadata);
